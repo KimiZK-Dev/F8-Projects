@@ -406,6 +406,7 @@ body {
     font-size: 26px;
     color: var(--color-4);
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .section-5 .stats .card h4 span {
@@ -527,6 +528,7 @@ hr {
     position: absolute;
     top: -18px;
     left: 0;
+    border-radius: 999px;
 }
 
 .section-5 .text p {
