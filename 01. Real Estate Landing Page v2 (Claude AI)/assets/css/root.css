@@ -1,0 +1,85 @@
+/* ===== DESIGN TOKENS (from Figma) ===== */
+:root {
+  /* --- Color Palette --- */
+  --clr-navy-dark:    #000336;   /* primary dark navy - headings, buttons */
+  --clr-navy-mid:     #0F1B4C;   /* sign up btn, hero CTA */
+  --clr-navy-deep:    #063183;   /* newsletter card bg */
+  --clr-navy-footer:  #002366;   /* footer newsletter btn text */
+  --clr-navy-hero-bg: #002060;   /* hero bg fallback */
+
+  --clr-blue-accent:  #0689FF;   /* links "How to buy", icon color */
+  --clr-bg-hero:      #E6F0FF;   /* section-1 background */
+  --clr-bg-prop:      #F5FAFE;   /* section-4 Featured Properties bg */
+
+  --clr-text-body:    #687690;   /* body paragraph text */
+  --clr-text-nav:     #4F5361;   /* navbar links */
+  --clr-text-sub:     #5A6473;   /* sub-text, paragraph */
+  --clr-text-muted:   #A3A6AB;   /* small text, address */
+  --clr-text-light:   #7B8087;   /* stats label */
+  --clr-text-footer:  #7A7A7E;   /* footer links */
+  --clr-text-dark:    #1C1C1D;   /* footer headings */
+
+  --clr-star:         #FFCA56;   /* star rating yellow */
+  --clr-white:        #FFFFFF;
+  --clr-black:        #000000;
+
+  --clr-divider:      #E9E9E9;   /* hr lines */
+  --clr-card-bg:      #F9F9F9;   /* social icon bg */
+  --clr-icon-social:  #646464;   /* social icon color */
+  --clr-border-light: #C2C2C2;   /* footer bottom text */
+  --clr-text-grey2:   #A7A7A7;   /* card p text */
+
+  /* --- Typography --- */
+  --font-primary:   'Poppins', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
+
+  /* Font sizes (rem) */
+  --fs-xs:   0.75rem;   /* 12px */
+  --fs-sm:   0.8125rem; /* 13px */
+  --fs-base: 0.875rem;  /* 14px */
+  --fs-md:   1rem;      /* 16px */
+  --fs-lg:   1.125rem;  /* 18px */
+  --fs-xl:   1.25rem;   /* 20px */
+  --fs-2xl:  1.375rem;  /* 22px */
+  --fs-3xl:  1.5rem;    /* 24px */
+  --fs-4xl:  2.1875rem; /* 35px */
+  --fs-hero: 4rem;      /* 64px */
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-semibold: 600;
+  --fw-bold:    700;
+
+  /* --- Spacing scale --- */
+  --sp-4:   0.25rem;   /* 4px  */
+  --sp-8:   0.5rem;    /* 8px  */
+  --sp-12:  0.75rem;   /* 12px */
+  --sp-16:  1rem;      /* 16px */
+  --sp-20:  1.25rem;   /* 20px */
+  --sp-24:  1.5rem;    /* 24px */
+  --sp-28:  1.75rem;   /* 28px */
+  --sp-30:  1.875rem;  /* 30px */
+  --sp-38:  2.375rem;  /* 38px */
+  --sp-40:  2.5rem;    /* 40px */
+  --sp-46:  2.875rem;  /* 46px */
+  --sp-50:  3.125rem;  /* 50px */
+  --sp-60:  3.75rem;   /* 60px */
+  --sp-64:  4rem;      /* 64px */
+  --sp-70:  4.375rem;  /* 70px */
+  --sp-74:  4.625rem;  /* 74px */
+  --sp-80:  5rem;      /* 80px */
+  --sp-100: 6.25rem;   /* 100px */
+  --sp-110: 6.875rem;  /* 110px */
+  --sp-165: 10.3125rem;/* 165px — side gutter */
+
+  /* --- Layout --- */
+  --container-max: 1110px;
+  --container-px:  var(--sp-165);
+
+  /* --- Borders --- */
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 9999px;
+}
