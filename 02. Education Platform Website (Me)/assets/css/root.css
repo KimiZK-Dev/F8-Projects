@@ -1,0 +1,27 @@
+:root {
+	/* Text */
+	--primary-color: #171100;
+	--secondary-color: #5f5b53;
+
+	/* Background */
+	--bg-color: #fffcf4;
+	--dark-bg-color: #2e2100;
+
+	/* Accent */
+	--accent-color: #ffb900;
+
+	/* Border */
+	--border-color: #e2dfda;
+
+	/* Neutral */
+	--gray-color: #bfbcb2;
+
+	/* Surface */
+	--yellow-light: #fff9e8;
+	--pink-light: #fcefff;
+	--purple-light: #ebeaff;
+	--white-light: #f7f7f7;
+
+	/* Misc */
+	--dot-color: #634700;
+}
